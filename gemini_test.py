@@ -1,7 +1,7 @@
 import base64
 import os
 import google.generativeai as genai
-
+from prompt import prompt
 
 def generate(query):
     
@@ -12,7 +12,7 @@ def generate(query):
         model = genai.GenerativeModel(model1)
 
         
-        user_input = f"only give one word reply to this which is the most top rated uni in london only give me name {query}"
+        user_input = f"{prompt} to this {query}"
         response = model.generate_content(user_input)
 
         return response.text
