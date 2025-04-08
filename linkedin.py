@@ -3,7 +3,7 @@ from jobs import Jobs
 import time
 
 
-job_input_by_user = 'Ai developer'
+job_input_by_user = 'python developer'
 
 
 login = Login()

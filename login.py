@@ -17,14 +17,17 @@ class Login:
             self.driver.get(linkedin)
             self.login()
         def login(self):
+              time.sleep(2)
               self.signin_button = self.driver.find_element(By.XPATH, value = signin)
               self.signin_button.click()
+
               self.email = self.driver.find_element(By.ID , value= email)
               self.email.send_keys(linkedin_mail)
               self.password = self.driver.find_element(By.ID , value = password)
               self.password.send_keys(linkedin_pass)
               self.keep_me = self.driver.find_element(By.XPATH , value = keep_me_logged_in)
               self.keep_me.click()
+              time.sleep(2)
               self.signin1_button = self.driver.find_element(By.XPATH , value= signin1)
               self.signin1_button.click()
               

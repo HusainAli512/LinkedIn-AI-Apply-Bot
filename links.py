@@ -18,10 +18,14 @@ location = '//*[@id="ember892"]/div/div[2]/form/div/div[1]/div[7]/div/div/label'
 location_input = '//*[@id="single-typeahead-entity-form-component-formElement-urn-li-jobs-applyformcommon-easyApplyFormElement-4047772745-12050888986-location-GEO-LOCATION-ta"]'
 next_button1 = '/html[1]/body[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/form[1]/footer[1]/div[2]/button[1]/span[1]'
 next_button2 = '/html/body/div[4]/div/div/div[2]/div/div[2]/form/footer/div[2]/button[2]/span'
+next_button3 = '/html/body/div[4]/div/div/div[2]/div/div[2]/form/footer/div[2]/button[2]/span'
+review = '/html/body/div[4]/div/div/div[2]/div/div[2]/form/footer/div[2]/button[2]/span'
 submit_button = '/html/body/div[4]/div/div/div[2]/div/div/form/footer/div[3]/button/span'
-
+final_submit = '/html/body/div[4]/div/div/div[2]/div/div[2]/div/footer/div[3]/button[2]/span'
+done = '/html/body/div[4]/div/div/div[3]/button/span'
 form = '/html/body/div[4]/div/div/div[2]/div/div[2]/form'
 
 
 
 first_div = '//*[@id="ember291"]/div/div[2]/form/div/div/div[2]'
+
